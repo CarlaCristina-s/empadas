@@ -204,6 +204,14 @@ button:hover {
   .page {
     width: 80%;
   }
+
+  nav a {
+    color: #ffa500;
+    font-size: 16px;
+    padding: 2px;
+    transition: 2s ease all;
+  }  
+
   .time {
     display: block;
   }
@@ -220,8 +228,9 @@ button:hover {
 
   .formulario {
     display: block;
-    width: 350px;
+    width: 320px;
     margin: 0 auto;
+    padding: 0;
   }
 
   .formulario ul {
@@ -260,5 +269,17 @@ button:hover {
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .page {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav a,
+  label {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .formulario {
+    width: 288px;
   }
 }
