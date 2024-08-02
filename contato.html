@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="style.css">
+  <title>Contato</title>
+</head>
+
+<body>
+  <header class="container">
+    <h1>Empadas Deliciosas</h1>
+  </header>
+  <nav class="container">
+    <ul>
+      <li> <a href="./index.html">Home</a></li>
+      <li><a href="./cardapio.html">Cardápio</a></li>
+      <li><a href="./sobre.html">Sobre nós</a></li>
+      <li><a href="./contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="page">
+      <h2>Contato</h2>
+      <p>Entre em contato conosco.</p>
+
+      <div class="formulario">
+        <form action="">
+          <ul>
+            <li>
+              <span class="campo"><label for="nome">Nome:</label></span>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" >
+            </li>
+            <li>
+              <span class="campo"><label for="email">E-mail:</label></span>
+              <input type="text" id="email" name="email" placeholder="Ex.:contato@contato.com">
+            </li>
+            <li>
+              <span class="campo"><label for="assunto">Assunto:</label></span>
+              <select id="assunto" name="assunto">
+                <option value="Escolha">Escolha seu Assunto:</option>
+                <option value="Pedido">Pedido</option>
+                <option value="Dúvidas">Dúvidas</option>
+                <option value="Mensagem">Sugestões</option>
+              </select>
+            </li>
+            <li>
+              <span class="campo"><label for="mensagem">Mensagem:</label></span>
+              <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+            </li>
+          </ul>
+          <button type="button">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

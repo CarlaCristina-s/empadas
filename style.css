@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+header h1 {
+  background-color: #ffa500;
+  color: #ff4500;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 34px;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 25px;
+}
+
+nav a {
+  color: #ffa500;
+  font-size: 20px;
+  padding: 2px;
+  transition: 2s ease all;
+}
+
+nav a:hover {
+  background-color: #f9d696;
+  border-radius: 5px;
+}
+
+.page {
+  display: block;
+  width: 60%;
+  margin: 15px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px 10px #f7f6f6;
+}
+
+figure img{
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.page h2,
+.info-cardapio h2 {
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.info-cardapio img {
+  display: block;
+  width: 300px;
+  margin: 15px auto;
+}
+
+h3,
+p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #e2e1e1;
+  margin-bottom: 40px;
+}
+
+.header-table {
+  background-color: #ffa500;
+}
+
+.header-table-color {
+  color: #fff;
+}
+
+table th,
+table td {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.time {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.colaborador img {
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  margin: 0 100px;
+}
+
+.colaborador h3,
+.colaborador p {
+  text-align: center;
+}
+
+.valores ul {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.valores li {
+  font-size: 22px;
+  margin-left: 20px;
+  list-style: disc;
+  display: list-item;
+}
+
+.mapa h2 {
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 15px auto;
+}
+
+.formulario {
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  margin: 15px auto;
+}
+
+input[type="text"],
+select,
+textarea {
+  font-size: 16px;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  width: 393px;
+}
+
+label {
+  font-size: 22px;
+}
+
+select {
+  width: 414.6px;
+}
+
+option {
+  font-size: 16px;
+}
+
+textarea {
+  min-width: 393px;
+  max-width: 393px;
+  height: 60px;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.campo {
+  width: 30%;
+}
+
+button {
+  width: 100%;
+  padding: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ffa500;
+  color: #ff4500;
+  border: none;
+  border-radius: 5px;
+  transition: 3s ease all;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:hover {
+  background-color: #f9d696;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 80%;
+  }
+  .time {
+    display: block;
+  }
+
+  .time img {
+    display: block;
+    margin: 15px auto;
+  }
+
+  iframe {
+    max-width: 90%;
+    height: 400px;
+  }
+
+  .formulario {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .formulario ul {
+    max-width: 90%;
+    padding: 5px;
+    margin: auto 15px;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 170px;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+
+ label {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  select {
+    width: 191px;
+  }
+
+  textarea {
+    min-width: 146px;
+  }
+
+  button {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .page {
+    width: 90%;
+  }
+}
