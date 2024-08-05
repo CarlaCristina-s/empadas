@@ -239,10 +239,15 @@ button:hover {
     margin: auto 15px;
   }
 
+  .formulario li {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   input[type="text"],
   select,
   textarea {
-    width: 170px;
+    width: 100%;
     padding: 10px;
     font-size: 12px;
     margin-left: 20px;
@@ -254,7 +259,7 @@ button:hover {
   }
 
   select {
-    width: 191px;
+    width: 100%;
   }
 
   textarea {
@@ -273,10 +278,20 @@ button:hover {
 }
 
 @media screen and (max-width: 400px) {
+  nav ul {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  
   nav a,
   label {
     font-size: 14px;
     padding: 0;
+  }
+
+  .formulario li {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .formulario {
