@@ -205,6 +205,11 @@ button:hover {
     width: 80%;
   }
 
+  nav ul {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+
   nav a {
     color: #ffa500;
     font-size: 16px;
@@ -274,11 +279,6 @@ button:hover {
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .page {
     width: 90%;
-  }
-
-  nav ul {
-    display: flex; 
-    flex-wrap: wrap; 
   }
 }
 
